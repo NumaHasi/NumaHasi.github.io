@@ -1,7 +1,7 @@
 import os
 
 
-os.system("curl https://twitter.com/abeshinzo > test8.html")
+os.system("curl https://www.toyota-ct.ac.jp/ > test8.html")
 
 f = open("test8.html",'r')
 

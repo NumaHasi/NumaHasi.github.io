@@ -1,173 +1,510 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
-<link rel="preconnect" href="//abs.twimg.com" />
-<link rel="preconnect" href="//api.twitter.com" />
-<link rel="preconnect" href="//pbs.twimg.com" />
-<link rel="preconnect" href="//t.co" />
-<link rel="preconnect" href="//video.twimg.com" />
-<link rel="dns-prefetch" href="//abs.twimg.com" />
-<link rel="dns-prefetch" href="//api.twitter.com" />
-<link rel="dns-prefetch" href="//pbs.twimg.com" />
-<link rel="dns-prefetch" href="//t.co" />
-<link rel="dns-prefetch" href="//video.twimg.com" />
-<link rel="preload" as="script" crossorigin="anonymous" href="https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.90d86535.js" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" />
-<link rel="preload" as="script" crossorigin="anonymous" href="https://abs.twimg.com/responsive-web/client-web-legacy/vendors~main.45e01195.js" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" />
-<link rel="preload" as="script" crossorigin="anonymous" href="https://abs.twimg.com/responsive-web/client-web-legacy/i18n/en.6c3b6795.js" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" />
-<link rel="preload" as="script" crossorigin="anonymous" href="https://abs.twimg.com/responsive-web/client-web-legacy/main.a0abd565.js" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" />
-<meta property="fb:app_id" content="2231777543" />
-<meta property="og:site_name" content="Twitter" />
-<meta name="google-site-verification" content="V0yIS0Ec_o3Ii9KThrCoMCkwTYMMJ_JYx_RSaGhFYvw" />
-<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" />
-<link rel="alternate" hreflang="x-default" href="https://twitter.com/abeshinzo" />
-<link rel="alternate" hreflang="ar" href="https://twitter.com/abeshinzo?lang&#x3D;ar" />
-<link rel="alternate" hreflang="bg" href="https://twitter.com/abeshinzo?lang&#x3D;bg" />
-<link rel="alternate" hreflang="bn" href="https://twitter.com/abeshinzo?lang&#x3D;bn" />
-<link rel="alternate" hreflang="ca" href="https://twitter.com/abeshinzo?lang&#x3D;ca" />
-<link rel="alternate" hreflang="cs" href="https://twitter.com/abeshinzo?lang&#x3D;cs" />
-<link rel="alternate" hreflang="da" href="https://twitter.com/abeshinzo?lang&#x3D;da" />
-<link rel="alternate" hreflang="de" href="https://twitter.com/abeshinzo?lang&#x3D;de" />
-<link rel="alternate" hreflang="el" href="https://twitter.com/abeshinzo?lang&#x3D;el" />
-<link rel="alternate" hreflang="en" href="https://twitter.com/abeshinzo?lang&#x3D;en" />
-<link rel="alternate" hreflang="en-GB" href="https://twitter.com/abeshinzo?lang&#x3D;en-GB" />
-<link rel="alternate" hreflang="es" href="https://twitter.com/abeshinzo?lang&#x3D;es" />
-<link rel="alternate" hreflang="eu" href="https://twitter.com/abeshinzo?lang&#x3D;eu" />
-<link rel="alternate" hreflang="fa" href="https://twitter.com/abeshinzo?lang&#x3D;fa" />
-<link rel="alternate" hreflang="fi" href="https://twitter.com/abeshinzo?lang&#x3D;fi" />
-<link rel="alternate" hreflang="tl" href="https://twitter.com/abeshinzo?lang&#x3D;tl" />
-<link rel="alternate" hreflang="fr" href="https://twitter.com/abeshinzo?lang&#x3D;fr" />
-<link rel="alternate" hreflang="ga" href="https://twitter.com/abeshinzo?lang&#x3D;ga" />
-<link rel="alternate" hreflang="gl" href="https://twitter.com/abeshinzo?lang&#x3D;gl" />
-<link rel="alternate" hreflang="gu" href="https://twitter.com/abeshinzo?lang&#x3D;gu" />
-<link rel="alternate" hreflang="he" href="https://twitter.com/abeshinzo?lang&#x3D;he" />
-<link rel="alternate" hreflang="hi" href="https://twitter.com/abeshinzo?lang&#x3D;hi" />
-<link rel="alternate" hreflang="hr" href="https://twitter.com/abeshinzo?lang&#x3D;hr" />
-<link rel="alternate" hreflang="hu" href="https://twitter.com/abeshinzo?lang&#x3D;hu" />
-<link rel="alternate" hreflang="id" href="https://twitter.com/abeshinzo?lang&#x3D;id" />
-<link rel="alternate" hreflang="it" href="https://twitter.com/abeshinzo?lang&#x3D;it" />
-<link rel="alternate" hreflang="ja" href="https://twitter.com/abeshinzo?lang&#x3D;ja" />
-<link rel="alternate" hreflang="kn" href="https://twitter.com/abeshinzo?lang&#x3D;kn" />
-<link rel="alternate" hreflang="ko" href="https://twitter.com/abeshinzo?lang&#x3D;ko" />
-<link rel="alternate" hreflang="mr" href="https://twitter.com/abeshinzo?lang&#x3D;mr" />
-<link rel="alternate" hreflang="ms" href="https://twitter.com/abeshinzo?lang&#x3D;ms" />
-<link rel="alternate" hreflang="nb" href="https://twitter.com/abeshinzo?lang&#x3D;nb" />
-<link rel="alternate" hreflang="nl" href="https://twitter.com/abeshinzo?lang&#x3D;nl" />
-<link rel="alternate" hreflang="pl" href="https://twitter.com/abeshinzo?lang&#x3D;pl" />
-<link rel="alternate" hreflang="pt" href="https://twitter.com/abeshinzo?lang&#x3D;pt" />
-<link rel="alternate" hreflang="ro" href="https://twitter.com/abeshinzo?lang&#x3D;ro" />
-<link rel="alternate" hreflang="ru" href="https://twitter.com/abeshinzo?lang&#x3D;ru" />
-<link rel="alternate" hreflang="sk" href="https://twitter.com/abeshinzo?lang&#x3D;sk" />
-<link rel="alternate" hreflang="sr" href="https://twitter.com/abeshinzo?lang&#x3D;sr" />
-<link rel="alternate" hreflang="sv" href="https://twitter.com/abeshinzo?lang&#x3D;sv" />
-<link rel="alternate" hreflang="ta" href="https://twitter.com/abeshinzo?lang&#x3D;ta" />
-<link rel="alternate" hreflang="th" href="https://twitter.com/abeshinzo?lang&#x3D;th" />
-<link rel="alternate" hreflang="tr" href="https://twitter.com/abeshinzo?lang&#x3D;tr" />
-<link rel="alternate" hreflang="uk" href="https://twitter.com/abeshinzo?lang&#x3D;uk" />
-<link rel="alternate" hreflang="ur" href="https://twitter.com/abeshinzo?lang&#x3D;ur" />
-<link rel="alternate" hreflang="vi" href="https://twitter.com/abeshinzo?lang&#x3D;vi" />
-<link rel="alternate" hreflang="zh" href="https://twitter.com/abeshinzo?lang&#x3D;zh" />
-<link rel="alternate" hreflang="zh-Hant" href="https://twitter.com/abeshinzo?lang&#x3D;zh-Hant" />
-<link rel="canonical" href="https://twitter.com/abeshinzo" />
-<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter">
-<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/responsive-web/client-web-legacy/icon-svg.9e211f65.svg" color="#1da1f2">
-<link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="192x192" href="https://abs.twimg.com/responsive-web/client-web-legacy/icon-ios.8ea219d5.png" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-title" content="Twitter" />
-<meta name="apple-mobile-web-app-status-bar-style" content="white" />
-<meta name="theme-color" content="#ffffff" />
-<meta http-equiv="origin-trial" content="Apir4chqTX+4eFxKD+ErQlKRB/VtZ/dvnLfd9Y9Nenl5r1xJcf81alryTHYQiuUlz9Q49MqGXqyaiSmqWzHUqQwAAABneyJvcmlnaW4iOiJodHRwczovL3R3aXR0ZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb250YWN0c01hbmFnZXIiLCJleHBpcnkiOjE1NzUwMzUyODMsImlzU3ViZG9tYWluIjp0cnVlfQ==" />
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>豊田高専</title>
+<meta name="description" content="独立行政法人国立高専機構豊田高専では、最先端の専門的な技術知識を習得し、世界で活躍できるグローバルな技術者を育成しています。">
+<meta name="keywords" content="豊田高専,入試,受験">
+<!-- Global site tag (gtag.js) - Google Analytics -->
 
-<style>html,body{height: 100%;}body{-ms-overflow-style:scrollbar;overflow-y:scroll;overscroll-behavior-y:none;}</style>
-<style id="react-native-stylesheet">[stylesheet-group="0"]{}
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
-body{margin:0;}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
-input::-webkit-inner-spin-button,input::-webkit-outer-spin-button,input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}
-[stylesheet-group="0.1"]{}
-:focus:not([data-focusvisible-polyfill]){outline: none;}
-[stylesheet-group="1"]{}
-.css-1dbjc4n{-ms-flex-align:stretch;-ms-flex-direction:column;-ms-flex-negative:0;-ms-flex-preferred-size:auto;-webkit-align-items:stretch;-webkit-box-align:stretch;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-basis:auto;-webkit-flex-direction:column;-webkit-flex-shrink:0;align-items:stretch;border:0 solid black;box-sizing:border-box;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;min-height:0px;min-width:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:relative;z-index:0;}
-.css-901oao{border:0 solid black;box-sizing:border-box;color:rgba(0,0,0,1.00);display:inline;font:14px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;white-space:pre-wrap;word-wrap:break-word;}
-.css-16my406{color:inherit;font:inherit;white-space:inherit;}
-[stylesheet-group="2"]{}
-.r-13awgt0{-ms-flex-negative:1;-ms-flex-positive:1;-ms-flex-preferred-size:0%;-webkit-box-flex:1;-webkit-flex-basis:0%;-webkit-flex-grow:1;-webkit-flex-shrink:1;flex-basis:0%;flex-grow:1;flex-shrink:1;}
-.r-4qtqp9{display:inline-block;}
-.r-ywje51{margin-bottom:auto;margin-left:auto;margin-right:auto;margin-top:auto;}
-.r-hvic4v{display:none;}
-.r-1adg3ll{display:block;}
-[stylesheet-group="2.2"]{}
-.r-12vffkv>*{pointer-events:auto;}
-.r-12vffkv{pointer-events:none!important;}
-.r-14lw9ot{background-color:rgba(255,255,255,1.00);}
-.r-1p0dtai{bottom:0px;}
-.r-1d2f490{left:0px;}
-.r-1xcajam{position:fixed;}
-.r-zchlnj{right:0px;}
-.r-ipm5af{top:0px;}
-.r-yyyyoo{fill:currentcolor;}
-.r-1xvli5t{height:1.25em;}
-.r-dnmrzs{max-width:100%;}
-.r-bnwqim{position:relative;}
-.r-1plcrui{vertical-align:text-bottom;}
-.r-lrvibr{-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;user-select:none;}
-.r-13gxpu9{color:rgba(29,161,242,1.00);}
-.r-wy61xf{height:72px;}
-.r-u8s1d{position:absolute;}
-.r-1blnp2b{width:72px;}
-.r-1ykxob0{top:60%;}
-.r-1b2b6em{line-height:2em;}
-.r-q4m81j{text-align:center;}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50290425-46"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-50290425-46');
+</script>
+
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://www.toyota-ct.ac.jp/favicon.ico">
+<link rel="stylesheet" href="https://www.toyota-ct.ac.jp/common/css/reset.css" media="all">
+<link rel="stylesheet" href="https://www.toyota-ct.ac.jp/common/css/style.css" media="all">
+<link rel="stylesheet" href="https://www.toyota-ct.ac.jp/common/css/smart.css" media="all">
+<link rel="stylesheet" href="https://www.toyota-ct.ac.jp/common/css/entry.css" media="all">
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/jquery.js"></script>
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/cookie.js"></script>
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/textresizer.js"></script>
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/tile.js"></script>
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/config.js"></script>
+<!--[if IE 9]>
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/matchMedia.js"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.toyota-ct.ac.jp\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=49fd592da9d91a317c19b5714eec4316"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.toyota-ct.ac.jp/wp/wp-includes/css/dist/block-library/style.min.css?ver=49fd592da9d91a317c19b5714eec4316' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.toyota-ct.ac.jp/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.lightbox.min.css-css'  href='https://www.toyota-ct.ac.jp/wp/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css?ver=1.4.8' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://www.toyota-ct.ac.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.toyota-ct.ac.jp/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.toyota-ct.ac.jp/wp/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="stylesheet" href="https://www.toyota-ct.ac.jp/common/css/bxslider.css" media="all">
+<script type="text/javascript" src="https://www.toyota-ct.ac.jp/common/js/bxslider.js"></script>
+</head>
 
 <body>
-  <noscript>
-    <form action="https://mobile.twitter.com/i/nojs_router?path=%2Fabeshinzo" method="POST" style="background-color: #fff; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 9999;">
-      <div style="font-size: 18px; font-family: Helvetica,sans-serif; line-height: 24px; margin: 10%; width: 80%;">
-        <p>We've detected that JavaScript is disabled in your browser. Would you like to proceed to legacy Twitter?</p>
-        <p style="margin: 20px 0;">
-          <button type="submit" style="background-color: #1da1f2; border-radius: 100px; border: none; box-shadow: none; color: #fff; cursor: pointer; font-size: 14px; font-weight: bold; line-height: 20px; padding: 6px 16px;">Yes</button>
-        </p>
-      </div>
-    </form>
-  </noscript>
-  <div id="react-root" style="height:100%;display:flex;"><div class="css-1dbjc4n r-13awgt0 r-12vffkv"><div class="css-1dbjc4n r-13awgt0 r-12vffkv"><style>
-          @media (prefers-color-scheme: dark) {
-            #placeholder {
-              background-color: #1B2836
-            }
-          }
-        </style><div aria-label="Loading…" class="css-1dbjc4n r-14lw9ot r-1p0dtai r-1d2f490 r-1xcajam r-zchlnj r-ipm5af" id="placeholder"><svg viewBox="0 0 24 24" class="r-1p0dtai r-13gxpu9 r-4qtqp9 r-yyyyoo r-wy61xf r-1d2f490 r-ywje51 r-dnmrzs r-u8s1d r-zchlnj r-1plcrui r-ipm5af r-lrvibr r-1blnp2b"><g><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg></div><div class="css-1dbjc4n r-hvic4v r-1d2f490 r-1xcajam r-zchlnj r-1ykxob0" id="ScriptLoadFailure"><form action="" method="GET"><div dir="auto" class="css-901oao r-1adg3ll r-1b2b6em r-q4m81j"><span dir="auto" class="css-901oao css-16my406">Something went wrong, but don’t fret — let’s give it another shot.</span><br/><input type="hidden" name="failedScript" value=""/><input type="submit" value="Try again"/></div></form></div></div></div></div>
-<script nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy">
-window.__INITIAL_STATE__ = {"optimist":[],"featureSwitch":{"config":{"2fa_multikey_management_enabled":{"value":false},"account_country_setting_countries_whitelist":{"value":["ad","ae","af","ag","ai","al","am","ao","ar","as","at","au","aw","ax","az","ba","bb","bd","be","bf","bg","bh","bi","bj","bl","bm","bn","bo","bq","br","bs","bt","bv","bw","by","bz","ca","cc","cd","cf","cg","ch","ci","ck","cl","cm","co","cr","cu","cv","cw","cx","cy","cz","de","dj","dk","dm","do","dz","ec","ee","eg","er","es","et","fi","fj","fk","fm","fo","fr","ga","gb","gd","ge","gf","gg","gh","gi","gl","gm","gn","gp","gq","gr","gs","gt","gu","gw","gy","hk","hn","hr","ht","hu","id","ie","il","im","in","io","iq","ir","is","it","je","jm","jo","jp","ke","kg","kh","ki","km","kn","kr","kw","ky","kz","la","lb","lc","li","lk","lr","ls","lt","lu","lv","ly","ma","mc","md","me","mf","mg","mh","mk","ml","mn","mo","mp","mq","mr","ms","mt","mu","mv","mw","mx","my","mz","na","nc","ne","nf","ng","ni","nl","no","np","nr","nu","nz","om","pa","pe","pf","pg","ph","pk","pl","pm","pn","pr","ps","pt","pw","py","qa","re","ro","rs","ru","rw","sa","sb","sc","se","sg","sh","si","sk","sl","sm","sn","so","sr","st","sv","sx","sz","tc","td","tf","tg","th","tj","tk","tl","tm","tn","to","tr","tt","tv","tw","tz","ua","ug","us","uy","uz","va","vc","ve","vi","vn","vu","wf","ws","xk","ye","yt","za","zm","zw"]},"author_moderated_replies_urt_container_enabled":{"value":false},"content_language_setting_enabled":{"value":true},"conversation_controls_flexible_participation_enabled":{"value":false},"conversation_controls_flexible_participation_reply_enabled":{"value":false},"conversation_controls_limited_replies_consumption_configuration":{"value":"no_reply"},"conversation_controls_limited_replies_creation_enabled":{"value":true},"conversation_controls_notifying_participants_enabled":{"value":true},"conversational_safety_ouch_enabled":{"value":false},"dm_conversations_muting_enabled":{"value":false},"dm_reactions_config_active_reactions":{"value":["😂:funny","😲:surprised","😢:sad","❤:like","🔥:excited","👍:agree","👎:disagree"]},"dm_reactions_config_inactive_reactions":{"value":["😠:angry","😷:mask"]},"dm_voice_rendering_enabled":{"value":true},"employee_role":{"value":false},"explore_settings_trends_policy_url":{"value":""},"guest_broadcasting_timeline_decorations_enabled":{"value":true},"hashflags_animation_like_button_enabled":{"value":true},"home_timeline_latest_timeline_autoswitch_half_life_minutes":{"value":43200},"home_timeline_latest_timeline_autoswitch_threshold_multiplier":{"value":2},"home_timeline_latest_timeline_max_time_to_autoswitch_minutes":{"value":5256000},"home_timeline_latest_timeline_min_time_to_autoswitch_minutes":{"value":5256000},"home_timeline_latest_timeline_switch_enabled":{"value":true},"home_timeline_latest_timeline_threshold_to_increase_autoswitch_seconds":{"value":60},"home_timeline_spheres_copy_variant":{"value":"list_follow"},"home_timeline_spheres_custom_banner_image_reads_enabled":{"value":true},"home_timeline_spheres_detail_page_muting_enabled":{"value":true},"home_timeline_spheres_list_cell_thumbnail_enabled":{"value":true},"home_timeline_spheres_max_user_owned_or_subscribed_lists_count":{"value":5},"home_timeline_spheres_ranking_mode_control_enabled":{"value":true},"identity_verification_intake_enabled":{"value":false},"list_management_page_urt_timeline_enabled":{"value":false},"live_event_docking_enabled":{"value":true},"live_event_multi_video_auto_advance_dock_enabled":{"value":true},"live_event_multi_video_auto_advance_enabled":{"value":true},"live_event_multi_video_auto_advance_fullscreen_enabled":{"value":false},"live_event_multi_video_auto_advance_transition_duration_seconds":{"value":5},"live_event_multi_video_enabled":{"value":true},"live_event_timeline_default_refresh_rate_interval_seconds":{"value":30},"live_event_timeline_minimum_refresh_rate_interval_seconds":{"value":10},"live_event_timeline_server_controlled_refresh_rate_enabled":{"value":true},"livepipeline_client_enabled":{"value":true},"livepipeline_dm_features_enabled":{"value":true},"livepipeline_tweetengagement_enabled":{"value":true},"moment_annotations_enabled":{"value":true},"network_layer_503_backoff_mode":{"value":"host"},"project_friday_enabled":{"value":true},"responsive_web_alt_svc":{"value":false},"responsive_web_alt_text_badge_enabled":{"value":false},"responsive_web_api_transition_enabled":{"value":false},"responsive_web_auto_logout_multiaccount_enabled":{"value":true},"responsive_web_auto_logout_restrictedauthtoken_enabled":{"value":true},"responsive_web_auto_logout_twid_enabled":{"value":true},"responsive_web_birdwatch_consumption_enabled":{"value":false},"responsive_web_birdwatch_contribution_enabled":{"value":false},"responsive_web_birdwatch_hcomp_user":{"value":false},"responsive_web_branch_cpid_enabled":{"value":true},"responsive_web_branch_sdk_enabled":{"value":true},"responsive_web_card_preload_mode":{"value":"prerender"},"responsive_web_check_browser_support_enabled":{"value":true},"responsive_web_cleanup_macaw_swift_indexed_db":{"value":true},"responsive_web_constrained_viewport_enabled":{"value":false},"responsive_web_continue_as_always_enabled":{"value":false},"responsive_web_continue_as_param_enabled":{"value":true},"responsive_web_conversation_tree_enabled":{"value":false},"responsive_web_conversation_tree_toggle":{"value":false},"responsive_web_csrf_clientside_enabled":{"value":true},"responsive_web_dcm_2_enabled":{"value":true},"responsive_web_dm_health_inbox_request_cell_social_proof_enabled":{"value":false},"responsive_web_dm_health_settings_update":{"value":false},"responsive_web_dm_health_snooze_rename":{"value":false},"responsive_web_dm_quick_access_enabled":{"value":true},"responsive_web_dm_quick_access_no_empty_drawer_enabled":{"value":true},"responsive_web_dm_quick_access_with_close_enabled":{"value":false},"responsive_web_eu_compliance_double_click_disabled":{"value":false},"responsive_web_eu_compliance_ga_disabled":{"value":false},"responsive_web_eu_compliance_player_card_disabled":{"value":false},"responsive_web_eu_compliance_sentry_disabled":{"value":false},"responsive_web_eu_countries":{"value":["at","be","bg","ch","cy","cz","de","dk","ee","es","fi","fr","gb","gr","hr","hu","ie","is","it","li","lt","lu","lv","mt","nl","no","pl","pt","ro","se","si","sk"]},"responsive_web_events_page_horizon_video_enabled":{"value":false},"responsive_web_extension_compatibility_hide":{"value":false},"responsive_web_extension_compatibility_impression_guard":{"value":true},"responsive_web_extension_compatibility_override_param":{"value":false},"responsive_web_extension_compatibility_scribe":{"value":true},"responsive_web_extension_compatibility_size_threshold":{"value":50},"responsive_web_fake_root_twitter_domain_for_testing":{"value":false},"responsive_web_fetch_hashflags_on_boot":{"value":true},"responsive_web_fleets_dm_consumption_enabled":{"value":false},"responsive_web_fleets_notification_screen_enabled":{"value":false},"responsive_web_fleets_viewer_screen_enabled":{"value":false},"responsive_web_framerate_tracking_home_enabled":{"value":false},"responsive_web_graphql_amr_timeline":{"value":false},"responsive_web_graphql_bookmarks":{"value":false},"responsive_web_graphql_conversations_enabled":{"value":false},"responsive_web_graphql_dark_reads_probability":{"value":0},"responsive_web_graphql_liked_by":{"value":false},"responsive_web_graphql_likes_timeline":{"value":false},"responsive_web_graphql_list_crud":{"value":true},"responsive_web_graphql_list_management_timelines_enabled":{"value":false},"responsive_web_graphql_list_members_subscribers_enabled":{"value":false},"responsive_web_graphql_list_operations":{"value":false},"responsive_web_graphql_redux_module_users":{"value":false},"responsive_web_graphql_retweeted_by":{"value":false},"responsive_web_graphql_rux_landing_enabled":{"value":false},"responsive_web_graphql_tweet_results":{"value":false},"responsive_web_graphql_user_by_rest_id":{"value":false},"responsive_web_graphql_user_profile_screen":{"value":false},"responsive_web_graphql_user_results":{"value":false},"responsive_web_graphql_users_by_rest_ids":{"value":false},"responsive_web_graphql_verify_credentials_enabled":{"value":true},"responsive_web_guest_token_reporting":{"value":true},"responsive_web_hoisting_anchor_invalidation_enabled":{"value":false},"responsive_web_horizon_video_player_enabled":{"value":true},"responsive_web_hover_on_mousemove_enabled":{"value":false},"responsive_web_html_archive_renderer_enabled":{"value":true},"responsive_web_inline_login_box_enabled":{"value":true},"responsive_web_inline_reply_enabled":{"value":false},"responsive_web_inline_reply_with_fab_enabled":{"value":false},"responsive_web_instream_video_redesign_enabled":{"value":false},"responsive_web_list_hover_cards_enabled":{"value":true},"responsive_web_live_video_parity_periscope_auth_enabled":{"value":false},"responsive_web_login_input_type_email_enabled":{"value":false},"responsive_web_login_signup_sheet_app_install_cta_enabled":{"value":true},"responsive_web_media_upload_limit_2g":{"value":250},"responsive_web_media_upload_limit_3g":{"value":1500},"responsive_web_media_upload_limit_slow_2g":{"value":150},"responsive_web_media_upload_md5_hashing_enabled":{"value":false},"responsive_web_media_upload_target_jpg_pixels_per_byte":{"value":6},"responsive_web_menu_section_divider_enabled":{"value":false},"responsive_web_moment_maker_annotations_enabled":{"value":false},"responsive_web_moment_maker_enabled":{"value":false},"responsive_web_multiple_account_limit":{"value":5},"responsive_web_mute_unmute_toast_with_user_screen_name_enabled":{"value":true},"responsive_web_new_client_events_enabled":{"value":false},"responsive_web_not_my_account_screen_enabled":{"value":true},"responsive_web_ntab_verified_mentions_vit_internal_dogfood":{"value":false},"responsive_web_ocf_sms_autoverify_enabled":{"value":false},"responsive_web_prerolls_fullscreen_disabled_on_ios":{"value":false},"responsive_web_promoted_tweet_param_append_enabled":{"value":true},"responsive_web_promoted_tweet_url_rewrite_enabled":{"value":false},"responsive_web_quick_promote_enabled":{"value":false},"responsive_web_redirect_to_app_enabled":{"value":false},"responsive_web_report_page_not_found":{"value":false},"responsive_web_rich_tweet_landing_enabled":{"value":true},"responsive_web_scroller_autopoll_enabled":{"value":false},"responsive_web_scroller_v3_enabled":{"value":false},"responsive_web_search_dms_enabled":{"value":true},"responsive_web_second_degree_replies_nudge_force_enabled":{"value":false},"responsive_web_second_degree_replies_nudge_get_enabled":{"value":false},"responsive_web_second_degree_replies_nudge_show_enabled":{"value":false},"responsive_web_segmented_control_v2_enabled":{"value":true},"responsive_web_serviceworker_safari_disabled":{"value":false},"responsive_web_settings_revamp_enabled":{"value":false},"responsive_web_settings_timeline_refresh_background_interval":{"value":0},"responsive_web_settings_timeline_refresh_enabled":{"value":false},"responsive_web_settings_timeline_refresh_instant_default":{"value":true},"responsive_web_sports_carousel":{"value":false},"responsive_web_trends_setting_new_endpoints":{"value":true},"responsive_web_trigger_test_backoff_on_bookmark":{"value":false},"responsive_web_tweets_pill_local_enabled":{"value":true},"responsive_web_unsupported_entry_tombstone":{"value":false},"responsive_web_use_app_prompt_copy_variant":{"value":"prompt_better"},"responsive_web_use_app_prompt_enabled":{"value":true},"responsive_web_verification_v2_enabled":{"value":true},"responsive_web_video_pcomplete_enabled":{"value":true},"responsive_web_video_promoted_logging_enabled":{"value":true},"responsive_web_vod_muted_captions_enabled":{"value":true},"responsive_web_vs_config_desktop_assumed_item_height":{"value":100},"responsive_web_vs_config_resize_observer_enabled":{"value":true},"responsive_web_zipkin_api_requests_enabled":{"value":false},"responsive_web_zipkin_api_requests_paths_allowlist":{"value":["/2/timeline/home.json"]},"scribe_api_error_sample_size":{"value":0},"scribe_api_sample_size":{"value":100},"scribe_cdn_host_list":{"value":["si0.twimg.com","si1.twimg.com","si2.twimg.com","si3.twimg.com","a0.twimg.com","a1.twimg.com","a2.twimg.com","a3.twimg.com","abs.twimg.com","amp.twimg.com","o.twimg.com","pbs.twimg.com","pbs-eb.twimg.com","pbs-ec.twimg.com","pbs-v6.twimg.com","pbs-h1.twimg.com","pbs-h2.twimg.com","video.twimg.com","platform.twitter.com","cdn.api.twitter.com","ton.twimg.com","v.cdn.vine.co","mtc.cdn.vine.co","edge.vncdn.co","mid.vncdn.co"]},"scribe_cdn_sample_size":{"value":50},"search_channels_description_enabled":{"value":true},"search_channels_discovery_page_enabled":{"value":false},"search_features_deep_link_request_params_enabled":{"value":true},"soft_interventions_retweet_nudge_enabled":{"value":true},"topic_landing_page_enabled":{"value":true},"topic_landing_page_share_enabled":{"value":true},"topics_discovery_page_enabled":{"value":false},"topics_new_social_context_bottom_border_enabled":{"value":true},"topics_new_social_context_enabled":{"value":true},"topics_new_social_context_icon_color_enabled":{"value":false},"topics_peek_home_enabled":{"value":false},"topics_peek_search_enabled":{"value":false},"traffic_rewrite_map":{"value":[]},"tweet_limited_actions_config_enabled":{"value":true},"tweet_limited_actions_config_non_compliant":{"value":["reply","retweet","like","send_via_dm","add_to_bookmarks","add_to_moment","pin_to_profile","view_tweet_activity","share_tweet_via"]},"unified_cards_cta_color_blue_cta":{"value":true},"user_display_name_max_limit":{"value":50},"voice_consumption_enabled":{"value":false},"web_video_bitrate_persistence_enabled":{"value":false},"web_video_hls_android_mse_enabled":{"value":true},"web_video_hls_mp4_threshold_sec":{"value":0},"web_video_hlsjs_version":{"value":""}},"debug":{},"impression_pointers":{"responsive_web_ocf_sms_autoverify_enabled":["onboarding_chrome_sms_autoverify_9851"]},"impressions":{"onboarding_chrome_sms_autoverify_9851":{"key":"onboarding_chrome_sms_autoverify_9851","bucket":"control","version":6}},"featureSetToken":"c4e1e0accdbc9be3ae231b78bab01bc0b09ea799","isLoaded":true,"isLoading":false,"keysRead":{},"settingsVersion":"fd55f3485211d7289c728e4bc7607132"},"toasts":[],"entities":{"users":{"entities":{},"errors":{},"fetchStatus":{}},"tweets":{"entities":{},"errors":{},"fetchStatus":{}},"cards":{"entities":{},"errors":{},"fetchStatus":{}}},"session":{"country":"JP","emailLiteLoginEligibility":{"fetchStatus":"none"},"guestId":"160445219469821232","language":"en","oneFactorLoginEligibility":{"fetchStatus":"none"}},"typeaheadUsers":{"fetchStatus":"none","users":{},"denylist":{},"lastUpdated":0,"index":{}},"settings":{"local":{"nextPushCheckin":0,"shouldAutoPlayGif":false,"scale":"normal","themeColor":"blue","highContrastEnabled":false,"themeBackground":"light","loginPromptLastShown":0,"reducedMotionEnabled":false,"conversationTreeEnabled":false,"showTweetMediaDetailDrawer":true},"remote":{"settings":{"display_sensitive_media":false},"fetchStatus":"none"},"dataSaver":{"dataSaverMode":false},"transient":{"dtabBarInfo":{"dtabAll":null,"dtabRweb":null,"hide":false},"loginPromptShown":false,"lastViewedDmInboxPath":"/messages","themeFocus":""}},"devices":{"browserPush":{"fetchStatus":"none","pushNotificationsPrompt":{"dismissed":false,"fetchStatus":"none"},"subscribed":false,"supported":null},"devices":{"data":{"emails":[],"phone_numbers":[]},"fetchStatus":"none"},"notificationSettings":{"push_settings":{"error":null,"fetchStatus":"none"},"push_settings_template":{"template":{"settings":[]}},"sms_settings":{"error":null,"fetchStatus":"none"},"sms_settings_template":{"template":{"settings":[]}},"checkin_time":null}},"hashflags":{"fetchStatus":"none","hashflags":{}},"urt":{}};
-window.__META_DATA__ = {"env":"prod","isFromDynamicRenderer":false,"isLoggedIn":false,"isRTL":false,"hasMultiAccountCookie":false,"uaParserTags":["m2","rweb_unsupported","msw"],"serverDate":1604452194758,"sha":"760e51d8a9e5b1ac27b7433aa76baa388257a31c"};
+<div id="container" class="emergency">
+		<div id="emergency-news"><time datetime="2020-09-14">2020.09.14</time><span>緊急ニュース</span><a href="https://www.toyota-ct.ac.jp/emergency/18880/">新型コロナウイルス感染症に関する対応について</a></div>
+	
+<!-- search_START -->
+<div id="searchform">
+	<form method="get" action="https://www.toyota-ct.ac.jp">
+		<input type="text" name="s">
+		<input type="submit" value="検索" class="fade">
+	</form>
+	<p><img src="https://www.toyota-ct.ac.jp/img/common/btn_close.png" alt="閉じる" width="55" height="55" class="fade"></p>
+</div>
+<!-- search_END -->
+
+<!-- header_START -->
+<header>
+		<h1><a href="https://www.toyota-ct.ac.jp" class="fade"><span>国立高専機構 豊田高専</span></a></h1>
+		<nav id="menu">
+		<div class="btn"><img src="https://www.toyota-ct.ac.jp/img/common/btn_menu.png" alt="メニュー" width="60" height="50"></div>
+		<div class="menu">
+			<ul class="gnavi">
+				<li><a href="https://www.toyota-ct.ac.jp/about/"><span><img src="https://www.toyota-ct.ac.jp/img/common/gnavi_about.png" alt="アイコン" width="52" height="42">豊田高専について</span></a>
+															<ul class="children"><li class="page_item page-item-132"><a href="https://www.toyota-ct.ac.jp/about/kouchou_aisatsu/">校長のメッセージ</a></li>
+<li class="page_item page-item-143"><a href="https://www.toyota-ct.ac.jp/about/kyouiku_mokuhyou/">目指す技術者像</a></li>
+<li class="page_item page-item-161"><a href="https://www.toyota-ct.ac.jp/about/history/">学校の沿革</a></li>
+<li class="page_item page-item-172"><a href="https://www.toyota-ct.ac.jp/about/disclosure/">情報公開</a></li>
+<li class="page_item page-item-66 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/about/facility/">施設紹介</a>
+<ul class='children'>
+	<li class="page_item page-item-532"><a href="https://www.toyota-ct.ac.jp/about/facility/library/">図書館</a></li>
+</ul>
+</li>
+<li class="page_item page-item-215"><a href="https://www.toyota-ct.ac.jp/about/gaibu_hyouka/">外部評価・自己点検評価</a></li>
+<li class="page_item page-item-1455"><a href="https://www.toyota-ct.ac.jp/about/emergency_typhoon/">緊急時の対応</a></li>
+<li class="page_item page-item-1462 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/about/link/">関連リンク</a>
+<ul class='children'>
+	<li class="page_item page-item-11671"><a href="https://www.toyota-ct.ac.jp/about/link/robocon2019/">高専ロボコン2019　東海北陸地区大会</a></li>
+</ul>
+</li>
+<li class="page_item page-item-255"><a href="https://www.toyota-ct.ac.jp/about/access/">アクセス</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/introduction/"><span><img src="https://www.toyota-ct.ac.jp/img/common/gnavi_introduction.png" alt="アイコン" width="52" height="42">学科・専攻科紹介</span></a>
+															<ul class="children"><li class="page_item page-item-318"><a href="https://www.toyota-ct.ac.jp/introduction/g_gakka/">一般教育</a></li>
+<li class="page_item page-item-316"><a href="https://www.toyota-ct.ac.jp/introduction/m_gakka/">機械工学科</a></li>
+<li class="page_item page-item-327"><a href="https://www.toyota-ct.ac.jp/introduction/e_gakka/">電気・電子システム工学科</a></li>
+<li class="page_item page-item-332"><a href="https://www.toyota-ct.ac.jp/introduction/i_gakka/">情報工学科</a></li>
+<li class="page_item page-item-334"><a href="https://www.toyota-ct.ac.jp/introduction/c_gakka/">環境都市工学科</a></li>
+<li class="page_item page-item-337"><a href="https://www.toyota-ct.ac.jp/introduction/a_gakka/">建築学科</a></li>
+<li class="page_item page-item-340"><a href="https://www.toyota-ct.ac.jp/introduction/senkouka/">専攻科</a></li>
+<li class="page_item page-item-7346"><a href="https://www.toyota-ct.ac.jp/introduction/jabee%e8%aa%8d%e5%ae%9a%e6%95%99%e8%82%b2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/">JABEE認定教育プログラム</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/entrance/"><span><img src="https://www.toyota-ct.ac.jp/img/common/gnavi_entrance.png" alt="アイコン" width="52" height="42">入試情報</span></a>
+															<ul class="children"><li class="page_item page-item-352"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_honka/">本科学生募集案内</a></li>
+<li class="page_item page-item-403"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_hennyu/">編入学生募集案内</a></li>
+<li class="page_item page-item-375"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_senkouka/">専攻科生募集案内</a></li>
+<li class="page_item page-item-367"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_sonota/">その他</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/life/"><span><img src="https://www.toyota-ct.ac.jp/img/common/gnavi_life.png" alt="アイコン" width="52" height="50">学校生活</span></a>
+															<ul class="children"><li class="page_item page-item-2065"><a href="https://www.toyota-ct.ac.jp/life/gakougyouji/">学校行事</a></li>
+<li class="page_item page-item-2068"><a href="https://www.toyota-ct.ac.jp/life/gakuseikaigyouji/">学生会行事</a></li>
+<li class="page_item page-item-2071"><a href="https://www.toyota-ct.ac.jp/life/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-13157"><a href="https://www.toyota-ct.ac.jp/life/toukai-taikai/">東海地区体育大会</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/contact/"><span><img src="https://www.toyota-ct.ac.jp/img/common/gnavi_contact.png" alt="アイコン" width="52" height="42">お問い合わせ</span></a>
+															<ul class="children"><li class="page_item page-item-430"><a href="https://www.toyota-ct.ac.jp/contact/examination/">受験に関すること</a></li>
+<li class="page_item page-item-432"><a href="https://www.toyota-ct.ac.jp/contact/fee/">入学料、授業料に関すること</a></li>
+<li class="page_item page-item-434"><a href="https://www.toyota-ct.ac.jp/contact/schoollife/">学生生活に関すること</a></li>
+<li class="page_item page-item-436"><a href="https://www.toyota-ct.ac.jp/contact/event/">公開講座、多読セミナー、出前授業に関すること</a></li>
+<li class="page_item page-item-1598"><a href="https://www.toyota-ct.ac.jp/contact/certificate/">卒業後の各種証明書発行に関すること</a></li>
+<li class="page_item page-item-438"><a href="https://www.toyota-ct.ac.jp/contact/other/">その他のお問い合わせ</a></li>
+</ul>
+									</li>
+			</ul>
+			
+			<div class="head">
+				<ul class="navi_L">
+					<li><a href="https://www.toyota-ct.ac.jp/information/"><img src="https://www.toyota-ct.ac.jp/img/common/navi_information.png" alt="アイコン" width="16" height="24">お知らせ</a></li>
+					<li><a href="https://www.toyota-ct.ac.jp/examinee/"><img src="https://www.toyota-ct.ac.jp/img/common/navi_examinee.png" alt="アイコン" width="26" height="24">受験生の方</a>
+																		<ul class="children"><li class="page_item page-item-440"><a href="https://www.toyota-ct.ac.jp/examinee/kyouiku_mokuhyou/">教育目標・ポリシー</a></li>
+<li class="page_item page-item-442 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/nyuushi/">入試情報</a></li>
+<li class="page_item page-item-452"><a href="https://www.toyota-ct.ac.jp/examinee/reasons/">豊田高専を選ぶ理由</a></li>
+<li class="page_item page-item-454 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/dep/">学科・専攻科</a></li>
+<li class="page_item page-item-470 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/shinro/">就職・進学</a></li>
+<li class="page_item page-item-496"><a href="https://www.toyota-ct.ac.jp/examinee/girls-student/">女子生徒の方へ</a></li>
+<li class="page_item page-item-498"><a href="https://www.toyota-ct.ac.jp/examinee/setsumeikai/">学校説明会</a></li>
+<li class="page_item page-item-500"><a href="https://www.toyota-ct.ac.jp/examinee/taiken/">体験入学</a></li>
+<li class="page_item page-item-502"><a href="https://www.toyota-ct.ac.jp/examinee/open-campus/">オープンキャンパス</a></li>
+<li class="page_item page-item-504"><a href="https://www.toyota-ct.ac.jp/examinee/gakuryou/">学生寮について</a></li>
+<li class="page_item page-item-506 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/life2/">学校生活</a></li>
+<li class="page_item page-item-508"><a href="https://www.toyota-ct.ac.jp/examinee/club/">クラブ活動</a></li>
+<li class="page_item page-item-510"><a href="https://www.toyota-ct.ac.jp/examinee/kaigairyugaku/">海外留学</a></li>
+<li class="page_item page-item-512 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/expenses/">学費支援</a></li>
+<li class="page_item page-item-520"><a href="https://www.toyota-ct.ac.jp/examinee/facility2/">施設紹介</a></li>
+<li class="page_item page-item-522"><a href="https://www.toyota-ct.ac.jp/examinee/qa/">Q&#038;A</a></li>
+<li class="page_item page-item-524"><a href="https://www.toyota-ct.ac.jp/examinee/examinee-contact/">お問い合わせ</a></li>
+</ul>
+											</li>
+					<li><a href="https://www.toyota-ct.ac.jp/student/"><img src="https://www.toyota-ct.ac.jp/img/common/navi_student.png" alt="アイコン" width="18" height="24">在校生の方</a>
+																		<ul class="children"><li class="page_item page-item-526 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/student_support/">教育支援</a></li>
+<li class="page_item page-item-528"><a href="https://www.toyota-ct.ac.jp/student/syllabus/">シラバス</a></li>
+<li class="page_item page-item-530"><a href="https://www.toyota-ct.ac.jp/student/calendar/">豊田高専カレンダー</a></li>
+<li class="page_item page-item-534"><a href="https://www.toyota-ct.ac.jp/student/library2/">図書館</a></li>
+<li class="page_item page-item-536 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/shinro2/">就職・進学</a></li>
+<li class="page_item page-item-3306"><a href="https://www.toyota-ct.ac.jp/student/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-562 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/expenses2/">学費支援</a></li>
+<li class="page_item page-item-1495"><a href="https://www.toyota-ct.ac.jp/student/kaigairyugaku2/">海外留学</a></li>
+<li class="page_item page-item-570"><a href="https://www.toyota-ct.ac.jp/student/council/">学生会について</a></li>
+<li class="page_item page-item-572"><a href="https://www.toyota-ct.ac.jp/student/consult/">学生サポート室</a></li>
+<li class="page_item page-item-6740"><a href="https://www.toyota-ct.ac.jp/student/%e5%90%84%e7%a8%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%82%b9%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/">各種コンテスト等について</a></li>
+<li class="page_item page-item-574"><a href="https://www.toyota-ct.ac.jp/student/toyotaijimeboushi_housin/">いじめ防止等基本計画</a></li>
+<li class="page_item page-item-1500"><a href="https://www.toyota-ct.ac.jp/student/emergency_typhoon2/">緊急時の対応</a></li>
+<li class="page_item page-item-576"><a href="https://www.toyota-ct.ac.jp/student/student-contact/">事務手続窓口・お問い合わせ</a></li>
+<li class="page_item page-item-10674"><a href="https://www.toyota-ct.ac.jp/student/kyouikukouenkai/">教育後援会</a></li>
+<li class="page_item page-item-10678"><a href="https://www.toyota-ct.ac.jp/student/%e5%90%8c%e7%aa%93%e4%bc%9a/">同窓会</a></li>
+</ul>
+											</li>
+					<li><a href="https://www.toyota-ct.ac.jp/guardian/"><img src="https://www.toyota-ct.ac.jp/img/common/navi_guardian.png" alt="アイコン" width="24" height="24">保護者の方</a>
+																		<ul class="children"><li class="page_item page-item-578"><a href="https://www.toyota-ct.ac.jp/guardian/kyouiku_mokuhyou2/">目指す技術者像</a></li>
+<li class="page_item page-item-580 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/student_support2/">教育支援</a></li>
+<li class="page_item page-item-585"><a href="https://www.toyota-ct.ac.jp/guardian/visit4parents/">保護者説明会</a></li>
+<li class="page_item page-item-583"><a href="https://www.toyota-ct.ac.jp/guardian/calendar2/">豊田高専カレンダー</a></li>
+<li class="page_item page-item-587 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/shinro3/">就職・進学</a></li>
+<li class="page_item page-item-3310"><a href="https://www.toyota-ct.ac.jp/guardian/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-613 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/expenses3/">学費支援</a></li>
+<li class="page_item page-item-622"><a href="https://www.toyota-ct.ac.jp/guardian/consult2/">学生サポート室</a></li>
+<li class="page_item page-item-624"><a href="https://www.toyota-ct.ac.jp/guardian/toyotaijimeboushi_housin2/">いじめ防止等基本計画</a></li>
+<li class="page_item page-item-626"><a href="https://www.toyota-ct.ac.jp/guardian/facility3/">施設紹介</a></li>
+<li class="page_item page-item-1502"><a href="https://www.toyota-ct.ac.jp/guardian/emergency_typhoon3/">緊急時の対応</a></li>
+<li class="page_item page-item-628"><a href="https://www.toyota-ct.ac.jp/guardian/guardian-contact/">お問い合わせ</a></li>
+<li class="page_item page-item-10663"><a href="https://www.toyota-ct.ac.jp/guardian/kyouikukouenkai/">教育後援会</a></li>
+<li class="page_item page-item-10670"><a href="https://www.toyota-ct.ac.jp/guardian/dousoukai/">同窓会</a></li>
+</ul>
+											</li>
+					<li><a href="https://www.toyota-ct.ac.jp/company/"><img src="https://www.toyota-ct.ac.jp/img/common/navi_company.png" alt="アイコン" width="18" height="24">地域・企業の方</a>
+																		<ul class="children"><li class="page_item page-item-630 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/company/koukaikouza/">公開講座</a></li>
+<li class="page_item page-item-632"><a href="https://www.toyota-ct.ac.jp/company/demae/">出前授業</a></li>
+<li class="page_item page-item-653"><a href="https://www.toyota-ct.ac.jp/company/recruitment/">教職員募集(情報なし)</a></li>
+<li class="page_item page-item-634"><a href="https://www.toyota-ct.ac.jp/company/tadoku_schedule/">多読セミナー</a></li>
+<li class="page_item page-item-1364"><a href="https://www.toyota-ct.ac.jp/company/kouza/">一般向け講座</a></li>
+<li class="page_item page-item-636"><a href="https://www.toyota-ct.ac.jp/company/library3/">図書館</a></li>
+<li class="page_item page-item-638"><a href="https://www.toyota-ct.ac.jp/company/saiyou_tantou/">採用担当の方へ</a></li>
+<li class="page_item page-item-640"><a href="https://www.toyota-ct.ac.jp/company/intern_tantou/">インターンシップ担当の方へ</a></li>
+<li class="page_item page-item-643"><a href="https://www.toyota-ct.ac.jp/company/collaboration/">産学官連携</a></li>
+<li class="page_item page-item-645 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/company/ikki_tsukan/">ものづくり一気通観プログラム</a></li>
+<li class="page_item page-item-655"><a href="https://www.toyota-ct.ac.jp/company/chotatujoho/">調達情報（情報なし）</a></li>
+<li class="page_item page-item-657"><a href="https://www.toyota-ct.ac.jp/company/company-contact/">お問い合わせ</a></li>
+</ul>
+											</li>
+				</ul>
+				<ul class="navi_R">
+					<li class="fontsize"><a href="#"><img src="https://www.toyota-ct.ac.jp/img/common/icon_fontsize.png" alt="アイコン" width="22" height="12">文字サイズ</a><a href="#"><img src="https://www.toyota-ct.ac.jp/img/common/icon_fontsize.png" alt="アイコン" width="22" height="12">文字サイズ</a></li>
+					<li class="contact"><a href="https://www.toyota-ct.ac.jp/contact/"><img src="https://www.toyota-ct.ac.jp/img/common/icon_contact.png" alt="アイコン" width="20" height="15">お問い合わせ</a></li>
+					<li class="english"><a href="https://www.toyota-ct.ac.jp/en/"><img src="https://www.toyota-ct.ac.jp/img/common/icon_english.png" alt="アイコン" width="14" height="14">ENGLISH</a></li>
+					<li class="search"><a href="#"><img src="https://www.toyota-ct.ac.jp/img/common/btn_search.png" alt="検索" width="50" height="50"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- header_END -->
+
+<!-- main_START -->
+<main id="home">
+	<div class="column">
+		<div class="fix">
+			<div class="logo sp"><img src="https://www.toyota-ct.ac.jp/img/home/logo_slider.png" alt="国立高専機構 豊田高専" width="120" height="120"></div>
+			<ul id="slider">
+										<li style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/01/slider_01.jpg) no-repeat center; background-size:cover;"><span>「技術力」と<br>「人間力」を<br>育む</span></li>
+							<li style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/01/slider_02.jpg) no-repeat center; background-size:cover;"><span>「理論」と<br>「実践」の<br>融合</span></li>
+							<li style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/01/slider_03.jpg) no-repeat center; background-size:cover;"><span>技術力と<br />チームワークで<br />世界と競う</span></li>
+							<li style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/01/slider04-2.jpg) no-repeat center; background-size:cover;"><span>チャレンジを応援</span></li>
+							<li style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/01/slider05.jpg) no-repeat center; background-size:cover;"><span>今注目されている<br>理系女子</span></li>
+									</ul>
+		</div>
+		
+		<div class="division">
+			<section class="information">
+				<div class="title">
+					<h2>お知らせ<span>INFORMATION</span></h2>
+					<div class="widget_btn"><a href="https://www.toyota-ct.ac.jp/information/" class="fade"><span>…</span>一覧を見る</a></div>
+				</div>
+				<ul class="widget_list">
+																	<li><time datetime="2020-10-29">2020.10.29</time><span class="cat cate_student"><a href="https://www.toyota-ct.ac.jp/information/cate_student/">在校生</a></span><a href="https://www.toyota-ct.ac.jp/information/26762/">（保健室からお知らせ）ほけんだよりを更新しました</a></li>
+													<li><time datetime="2020-10-22">2020.10.22</time><span class="cat info"><a href="https://www.toyota-ct.ac.jp/information/info/">お知らせ</a></span><span class="cat cate_guardian"><a href="https://www.toyota-ct.ac.jp/information/cate_guardian/">保護者</a></span><span class="cat cate_student"><a href="https://www.toyota-ct.ac.jp/information/cate_student/">在校生</a></span><a href="https://www.toyota-ct.ac.jp/information/25975/">令和2年度学科別保護者説明会について（10月22日更新）</a></li>
+													<li><time datetime="2020-10-15">2020.10.15</time><span class="cat info"><a href="https://www.toyota-ct.ac.jp/information/info/">お知らせ</a></span><span class="cat cate_examinee"><a href="https://www.toyota-ct.ac.jp/information/cate_examinee/">受験生</a></span><a href="https://www.toyota-ct.ac.jp/information/29296/">11月22日（日）の中学３年生向け学校説明会の申込みについて</a></li>
+													<li><time datetime="2020-10-13">2020.10.13</time><span class="cat info"><a href="https://www.toyota-ct.ac.jp/information/info/">お知らせ</a></span><span class="cat cate_student"><a href="https://www.toyota-ct.ac.jp/information/cate_student/">在校生</a></span><a href="https://www.toyota-ct.ac.jp/information/29208/">（学生サポート室からお知らせ）カウンセラーだよりを更新しました</a></li>
+													<li><time datetime="2020-10-11">2020.10.11</time><span class="cat info"><a href="https://www.toyota-ct.ac.jp/information/info/">お知らせ</a></span><span class="cat cate_guardian"><a href="https://www.toyota-ct.ac.jp/information/cate_guardian/">保護者</a></span><span class="cat cate_student"><a href="https://www.toyota-ct.ac.jp/information/cate_student/">在校生</a></span><a href="https://www.toyota-ct.ac.jp/information/29184/">令和２年度第２学年スキー教育の中止について</a></li>
+												</ul>
+			</section>
+			
+			<section class="event">
+				<div class="title">
+					<h2>イベント・リポート<span>EVENT</span></h2>
+					<div class="widget_btn"><a href="https://www.toyota-ct.ac.jp/information/event/" class="fade"><span>…</span>一覧を見る</a></div>
+				</div>
+				<ul class="widget_event fades">
+																		<li><a href="https://www.toyota-ct.ac.jp/information/30087/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/10/201019AWS_nyusyou-e1603067807610.jpg" alt="学生対抗ロボットアプリコンテスト「AWS Robot Delivery Challenge」で「３位」入賞！">
+												<h3><time datetime="2020-10-19">10.19</time><span>学生対抗ロボットアプリコンテスト「AWS Robot Delivery Challenge」で「３位」入賞！</span></h3></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/information/28635/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/09/200930videocon-e1601423646953.jpg" alt="オンライン表彰式！（国際交流ビデオコンテスト）を実施しました。（令和2年9月17日（木））">
+												<h3><time datetime="2020-09-30">9.30</time><span>オンライン表彰式！（国際交流ビデオコンテスト）を実施しました。（令和2年9月17日（木））</span></h3></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/information/23993/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/06/a98b1120712ae2558c294773114e59b3.jpg" alt="本校学生チームが、「情報危機管理コンテスト」で「文部科学大臣賞」を受賞！">
+												<h3><time datetime="2020-06-08">6.8</time><span>本校学生チームが、「情報危機管理コンテスト」で「文部科学大臣賞」を受賞！</span></h3></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/information/20431/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/04/20200406_02_tapecut-e1586336162325.jpg" alt="創造工房棟の竣工式を挙行">
+												<h3><time datetime="2020-04-06">4.6</time><span>創造工房棟の竣工式を挙行</span></h3></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/information/19468/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/03/20323Jitou_yuusyusyou-e1584932281689.jpg" alt="教育システム情報学会「学生研究発表会」で「優秀賞」受賞！">
+												<h3><time datetime="2020-03-23">3.23</time><span>教育システム情報学会「学生研究発表会」で「優秀賞」受賞！</span></h3></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/information/19443/">
+												<img src="https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2020/03/20217_5Csatou_yuusyu-e1584932358882.jpg" alt="日本建築学会東海支部学生優秀学術講演賞を受賞しました！">
+												<h3><time datetime="2020-03-23">3.23</time><span>日本建築学会東海支部学生優秀学術講演賞を受賞しました！</span></h3></a>
+					</li>
+												</ul>
+			</section>
+			
+			<section class="pickup">
+				<div class="title">
+					<h2>ピックアップ<span>PICK UP</span></h2>
+					<div class="widget_btn"><a href="https://www.toyota-ct.ac.jp/pickup/" class="fade"><span>…</span>一覧を見る</a></div>
+				</div>
+				<ul id="slider_pickup" class="widget_pickup fades">
+																		<li><a href="https://www.toyota-ct.ac.jp/pickup/12120/">
+						<div class="image" style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2019/04/20190425_kousha.jpg) no-repeat center; background-size:cover;"></div>
+						<h3>令和２年度学校説明会の開催について</h3>
+						<time datetime="2020-06-12">2020.06.12</time>
+						<p>令和２年度学校説明会の受付を開始しています。中学３年生や保護者の皆さんに豊田高専の特徴を知っていただきたいと思います。是非，御参加ください。</p>
+						<p class="detail">この記事の詳細を読む</p></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/pickup/2243/">
+						<div class="image" style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2019/03/20190328koukaikouza-e1554115586650.jpg) no-repeat center; background-size:cover;"></div>
+						<h3>公開講座</h3>
+						<time datetime="2020-04-01">2020.04.01</time>
+						<p>2020年度 とよた高専ワクワク広場です。</p>
+						<p class="detail">この記事の詳細を読む</p></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/pickup/2248/">
+						<div class="image" style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/03/contact-1.jpg) no-repeat center; background-size:cover;"></div>
+						<h3>豊田高専を選ぶ理由</h3>
+						<time datetime="2018-03-16">2018.03.16</time>
+						<p>豊田高専のことを知りたい皆様に、特設ページをご用意いたしました。ぜひご覧ください。</p>
+						<p class="detail">この記事の詳細を読む</p></a>
+					</li>
+														<li><a href="https://www.toyota-ct.ac.jp/pickup/2255/">
+						<div class="image" style="background:url(https://www.toyota-ct.ac.jp/wp/wp-content/uploads/2018/03/female-2.jpg) no-repeat center; background-size:cover;"></div>
+						<h3>女子生徒の方へ</h3>
+						<time datetime="2018-03-14">2018.03.14</time>
+						<p>豊田高専を卒業した女子学生は、社会で活躍中です。そんな豊田高専の女子学生についてお伝えします。</p>
+						<p class="detail">この記事の詳細を読む</p></a>
+					</li>
+												</ul>
+			</section>
+			
+			<section class="facility">
+				<div class="title">
+					<h2>ここが自慢！研究設備！<span>FACILITY</span></h2>
+					<div class="widget_btn"><a href="https://www.toyota-ct.ac.jp/about/facility/" class="fade"><span>…</span>詳細を見る</a></div>
+				</div>
+				<p>本校では、各教育・研究施設の運営に加え、各施設の連携を図り総合的な運営を行っています。これらを有効活用し、科学技術の進歩に対応した教育内容の充実と研究の活性化に努めています。</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!4v1525942992550!6m8!1m7!1sCAoSLEFGMVFpcE1ocDFvYm1UTHM5U0pOQ0hUTXF3SVdBXzdNbVJxdThzb3d2dTVN!2m2!1d35.104444877603!2d137.14883894821!3f263.9599324779563!4f-0.9181533579636749!5f0.7820865974627469" width="600" height="400" allowfullscreen></iframe>
+			</section>
+		</div>
+	</div>
+	
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21958.597362410455!2d137.13323701361196!3d35.10258987783728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60035ff6c15d45cf%3A0xedc97955d6172018!2z6LGK55Sw5bel5qWt6auY562J5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1516600975772" width="1200" height="540" allowfullscreen></iframe>
+	</div>
+</main>
+<!-- main_END -->
+
+<!-- footer_START -->
+<footer>
+	<div class="pagetop"><img src="https://www.toyota-ct.ac.jp/img/common/pagetop.png" alt="ページトップ" width="60" height="60" class="fade"></div>
+	<div class="column">
+		<nav class="menu">
+			<ul>
+				<li><a href="https://www.toyota-ct.ac.jp">HOME</a></li>
+				<li><a href="https://www.toyota-ct.ac.jp/about/">豊田高専について</a>
+															<ul><li class="page_item page-item-132"><a href="https://www.toyota-ct.ac.jp/about/kouchou_aisatsu/">校長のメッセージ</a></li>
+<li class="page_item page-item-143"><a href="https://www.toyota-ct.ac.jp/about/kyouiku_mokuhyou/">目指す技術者像</a></li>
+<li class="page_item page-item-161"><a href="https://www.toyota-ct.ac.jp/about/history/">学校の沿革</a></li>
+<li class="page_item page-item-172"><a href="https://www.toyota-ct.ac.jp/about/disclosure/">情報公開</a></li>
+<li class="page_item page-item-66 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/about/facility/">施設紹介</a></li>
+<li class="page_item page-item-215"><a href="https://www.toyota-ct.ac.jp/about/gaibu_hyouka/">外部評価・自己点検評価</a></li>
+<li class="page_item page-item-1455"><a href="https://www.toyota-ct.ac.jp/about/emergency_typhoon/">緊急時の対応</a></li>
+<li class="page_item page-item-1462 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/about/link/">関連リンク</a></li>
+<li class="page_item page-item-255"><a href="https://www.toyota-ct.ac.jp/about/access/">アクセス</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/introduction/">学科・専攻科紹介</a>
+															<ul><li class="page_item page-item-318"><a href="https://www.toyota-ct.ac.jp/introduction/g_gakka/">一般教育</a></li>
+<li class="page_item page-item-316"><a href="https://www.toyota-ct.ac.jp/introduction/m_gakka/">機械工学科</a></li>
+<li class="page_item page-item-327"><a href="https://www.toyota-ct.ac.jp/introduction/e_gakka/">電気・電子システム工学科</a></li>
+<li class="page_item page-item-332"><a href="https://www.toyota-ct.ac.jp/introduction/i_gakka/">情報工学科</a></li>
+<li class="page_item page-item-334"><a href="https://www.toyota-ct.ac.jp/introduction/c_gakka/">環境都市工学科</a></li>
+<li class="page_item page-item-337"><a href="https://www.toyota-ct.ac.jp/introduction/a_gakka/">建築学科</a></li>
+<li class="page_item page-item-340"><a href="https://www.toyota-ct.ac.jp/introduction/senkouka/">専攻科</a></li>
+<li class="page_item page-item-7346"><a href="https://www.toyota-ct.ac.jp/introduction/jabee%e8%aa%8d%e5%ae%9a%e6%95%99%e8%82%b2%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%a0/">JABEE認定教育プログラム</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/entrance/">入試情報</a>
+															<ul><li class="page_item page-item-352"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_honka/">本科学生募集案内</a></li>
+<li class="page_item page-item-403"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_hennyu/">編入学生募集案内</a></li>
+<li class="page_item page-item-375"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_senkouka/">専攻科生募集案内</a></li>
+<li class="page_item page-item-367"><a href="https://www.toyota-ct.ac.jp/entrance/nyuushi_sonota/">その他</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/life/">学校生活</a>
+															<ul><li class="page_item page-item-2065"><a href="https://www.toyota-ct.ac.jp/life/gakougyouji/">学校行事</a></li>
+<li class="page_item page-item-2068"><a href="https://www.toyota-ct.ac.jp/life/gakuseikaigyouji/">学生会行事</a></li>
+<li class="page_item page-item-2071"><a href="https://www.toyota-ct.ac.jp/life/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-13157"><a href="https://www.toyota-ct.ac.jp/life/toukai-taikai/">東海地区体育大会</a></li>
+</ul>
+									</li>
+			</ul>
+			<ul>
+				<li><a href="https://www.toyota-ct.ac.jp/examinee/">受験生の方</a>
+															<ul><li class="page_item page-item-440"><a href="https://www.toyota-ct.ac.jp/examinee/kyouiku_mokuhyou/">教育目標・ポリシー</a></li>
+<li class="page_item page-item-442 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/nyuushi/">入試情報</a></li>
+<li class="page_item page-item-452"><a href="https://www.toyota-ct.ac.jp/examinee/reasons/">豊田高専を選ぶ理由</a></li>
+<li class="page_item page-item-454 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/dep/">学科・専攻科</a></li>
+<li class="page_item page-item-470 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/shinro/">就職・進学</a></li>
+<li class="page_item page-item-496"><a href="https://www.toyota-ct.ac.jp/examinee/girls-student/">女子生徒の方へ</a></li>
+<li class="page_item page-item-498"><a href="https://www.toyota-ct.ac.jp/examinee/setsumeikai/">学校説明会</a></li>
+<li class="page_item page-item-500"><a href="https://www.toyota-ct.ac.jp/examinee/taiken/">体験入学</a></li>
+<li class="page_item page-item-502"><a href="https://www.toyota-ct.ac.jp/examinee/open-campus/">オープンキャンパス</a></li>
+<li class="page_item page-item-504"><a href="https://www.toyota-ct.ac.jp/examinee/gakuryou/">学生寮について</a></li>
+<li class="page_item page-item-506 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/life2/">学校生活</a></li>
+<li class="page_item page-item-508"><a href="https://www.toyota-ct.ac.jp/examinee/club/">クラブ活動</a></li>
+<li class="page_item page-item-510"><a href="https://www.toyota-ct.ac.jp/examinee/kaigairyugaku/">海外留学</a></li>
+<li class="page_item page-item-512 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/examinee/expenses/">学費支援</a></li>
+<li class="page_item page-item-520"><a href="https://www.toyota-ct.ac.jp/examinee/facility2/">施設紹介</a></li>
+<li class="page_item page-item-522"><a href="https://www.toyota-ct.ac.jp/examinee/qa/">Q&#038;A</a></li>
+<li class="page_item page-item-524"><a href="https://www.toyota-ct.ac.jp/examinee/examinee-contact/">お問い合わせ</a></li>
+</ul>
+									</li>
+			</ul>
+			<ul>
+				<li><a href="https://www.toyota-ct.ac.jp/student/">在校生の方</a>
+															<ul><li class="page_item page-item-526 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/student_support/">教育支援</a></li>
+<li class="page_item page-item-528"><a href="https://www.toyota-ct.ac.jp/student/syllabus/">シラバス</a></li>
+<li class="page_item page-item-530"><a href="https://www.toyota-ct.ac.jp/student/calendar/">豊田高専カレンダー</a></li>
+<li class="page_item page-item-534"><a href="https://www.toyota-ct.ac.jp/student/library2/">図書館</a></li>
+<li class="page_item page-item-536 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/shinro2/">就職・進学</a></li>
+<li class="page_item page-item-3306"><a href="https://www.toyota-ct.ac.jp/student/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-562 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/student/expenses2/">学費支援</a></li>
+<li class="page_item page-item-1495"><a href="https://www.toyota-ct.ac.jp/student/kaigairyugaku2/">海外留学</a></li>
+<li class="page_item page-item-570"><a href="https://www.toyota-ct.ac.jp/student/council/">学生会について</a></li>
+<li class="page_item page-item-572"><a href="https://www.toyota-ct.ac.jp/student/consult/">学生サポート室</a></li>
+<li class="page_item page-item-6740"><a href="https://www.toyota-ct.ac.jp/student/%e5%90%84%e7%a8%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%82%b9%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/">各種コンテスト等について</a></li>
+<li class="page_item page-item-574"><a href="https://www.toyota-ct.ac.jp/student/toyotaijimeboushi_housin/">いじめ防止等基本計画</a></li>
+<li class="page_item page-item-1500"><a href="https://www.toyota-ct.ac.jp/student/emergency_typhoon2/">緊急時の対応</a></li>
+<li class="page_item page-item-576"><a href="https://www.toyota-ct.ac.jp/student/student-contact/">事務手続窓口・お問い合わせ</a></li>
+<li class="page_item page-item-10674"><a href="https://www.toyota-ct.ac.jp/student/kyouikukouenkai/">教育後援会</a></li>
+<li class="page_item page-item-10678"><a href="https://www.toyota-ct.ac.jp/student/%e5%90%8c%e7%aa%93%e4%bc%9a/">同窓会</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/guardian/">保護者の方</a>
+															<ul><li class="page_item page-item-578"><a href="https://www.toyota-ct.ac.jp/guardian/kyouiku_mokuhyou2/">目指す技術者像</a></li>
+<li class="page_item page-item-580 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/student_support2/">教育支援</a></li>
+<li class="page_item page-item-585"><a href="https://www.toyota-ct.ac.jp/guardian/visit4parents/">保護者説明会</a></li>
+<li class="page_item page-item-583"><a href="https://www.toyota-ct.ac.jp/guardian/calendar2/">豊田高専カレンダー</a></li>
+<li class="page_item page-item-587 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/shinro3/">就職・進学</a></li>
+<li class="page_item page-item-3310"><a href="https://www.toyota-ct.ac.jp/guardian/gakuryougyouji/">学寮等</a></li>
+<li class="page_item page-item-613 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/guardian/expenses3/">学費支援</a></li>
+<li class="page_item page-item-622"><a href="https://www.toyota-ct.ac.jp/guardian/consult2/">学生サポート室</a></li>
+<li class="page_item page-item-624"><a href="https://www.toyota-ct.ac.jp/guardian/toyotaijimeboushi_housin2/">いじめ防止等基本計画</a></li>
+<li class="page_item page-item-626"><a href="https://www.toyota-ct.ac.jp/guardian/facility3/">施設紹介</a></li>
+<li class="page_item page-item-1502"><a href="https://www.toyota-ct.ac.jp/guardian/emergency_typhoon3/">緊急時の対応</a></li>
+<li class="page_item page-item-628"><a href="https://www.toyota-ct.ac.jp/guardian/guardian-contact/">お問い合わせ</a></li>
+<li class="page_item page-item-10663"><a href="https://www.toyota-ct.ac.jp/guardian/kyouikukouenkai/">教育後援会</a></li>
+<li class="page_item page-item-10670"><a href="https://www.toyota-ct.ac.jp/guardian/dousoukai/">同窓会</a></li>
+</ul>
+									</li>
+			</ul>
+			<ul>
+				<li><a href="https://www.toyota-ct.ac.jp/company/">地域・企業等の方</a>
+															<ul><li class="page_item page-item-630 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/company/koukaikouza/">公開講座</a></li>
+<li class="page_item page-item-632"><a href="https://www.toyota-ct.ac.jp/company/demae/">出前授業</a></li>
+<li class="page_item page-item-653"><a href="https://www.toyota-ct.ac.jp/company/recruitment/">教職員募集(情報なし)</a></li>
+<li class="page_item page-item-634"><a href="https://www.toyota-ct.ac.jp/company/tadoku_schedule/">多読セミナー</a></li>
+<li class="page_item page-item-1364"><a href="https://www.toyota-ct.ac.jp/company/kouza/">一般向け講座</a></li>
+<li class="page_item page-item-636"><a href="https://www.toyota-ct.ac.jp/company/library3/">図書館</a></li>
+<li class="page_item page-item-638"><a href="https://www.toyota-ct.ac.jp/company/saiyou_tantou/">採用担当の方へ</a></li>
+<li class="page_item page-item-640"><a href="https://www.toyota-ct.ac.jp/company/intern_tantou/">インターンシップ担当の方へ</a></li>
+<li class="page_item page-item-643"><a href="https://www.toyota-ct.ac.jp/company/collaboration/">産学官連携</a></li>
+<li class="page_item page-item-645 page_item_has_children"><a href="https://www.toyota-ct.ac.jp/company/ikki_tsukan/">ものづくり一気通観プログラム</a></li>
+<li class="page_item page-item-655"><a href="https://www.toyota-ct.ac.jp/company/chotatujoho/">調達情報（情報なし）</a></li>
+<li class="page_item page-item-657"><a href="https://www.toyota-ct.ac.jp/company/company-contact/">お問い合わせ</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/contact/">お問い合わせ</a>
+															<ul><li class="page_item page-item-430"><a href="https://www.toyota-ct.ac.jp/contact/examination/">受験に関すること</a></li>
+<li class="page_item page-item-432"><a href="https://www.toyota-ct.ac.jp/contact/fee/">入学料、授業料に関すること</a></li>
+<li class="page_item page-item-434"><a href="https://www.toyota-ct.ac.jp/contact/schoollife/">学生生活に関すること</a></li>
+<li class="page_item page-item-436"><a href="https://www.toyota-ct.ac.jp/contact/event/">公開講座、多読セミナー、出前授業に関すること</a></li>
+<li class="page_item page-item-1598"><a href="https://www.toyota-ct.ac.jp/contact/certificate/">卒業後の各種証明書発行に関すること</a></li>
+<li class="page_item page-item-438"><a href="https://www.toyota-ct.ac.jp/contact/other/">その他のお問い合わせ</a></li>
+</ul>
+									</li>
+				<li><a href="https://www.toyota-ct.ac.jp/information/">お知らせ</a></li>
+				<li><a href="https://www.toyota-ct.ac.jp/sitemap/">サイトマップ</a></li>
+				<li><a href="https://www.toyota-ct.ac.jp/en/">ENGLISH</a></li>
+			</ul>
+		</nav>
+		<div class="school">
+			<p><img src="https://www.toyota-ct.ac.jp/img/common/school.png" alt="豊田高専" width="310" height="200"></p>
+			<h2><img src="https://www.toyota-ct.ac.jp/img/common/logo_footer.png" alt="独立行政法人国立高等専門学校機構 豊田工業高等専門学校" width="310" height="50"></h2>
+			<address>〒471-8525 愛知県豊田市栄生町2-1<br>TEL：<span>0565-32-8811</span>（代表）</address>
+			
+		</div>
+	</div>
+	<small>&copy;2018 National Institute of Technology, Toyota College</small>
+</footer>
+<!-- footer_END -->
+
+</div>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.toyota-ct.ac.jp\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
 </script>
-<script nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy">
-  document.cookie = decodeURIComponent("gt=1323794568622469121; Max-Age=10800; Domain=.twitter.com; Path=/; Secure");
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js?ver=1.4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"showTitle":"1","showCaption":"1","showNumbers":"1","fitToScreen":"1","resizeSpeed":"400","showDownload":"0","navbarOnTop":"0","marginSize":"0","slideshowSpeed":"4000","prevLinkTitle":"\u524d\u306e\u753b\u50cf","nextLinkTitle":"\u6b21\u306e\u753b\u50cf","closeTitle":"\u30ae\u30e3\u30e9\u30ea\u30fc\u3092\u9589\u3058\u308b","image":"\u753b\u50cf ","of":"\u306e","download":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","pause":"(\u30b9\u30e9\u30a4\u30c9\u30b7\u30e7\u30fc\u3092\u505c\u6b62\u3059\u308b)","play":"(\u30b9\u30e9\u30a4\u30c9\u30b7\u30e7\u30fc\u3092\u518d\u751f\u3059\u308b)"};
+/* ]]> */
 </script>
-<script type="text/javascript" charset="utf-8" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy">
-  window.__SCRIPTS_LOADED__ = {};
-  !function(e){function n(n){for(var o,t,i=n[0],c=n[1],l=n[2],s=0,m=[];s<i.length;s++)t=i[s],Object.prototype.hasOwnProperty.call(a,t)&&a[t]&&m.push(a[t][0]),a[t]=0;for(o in c)Object.prototype.hasOwnProperty.call(c,o)&&(e[o]=c[o]);for(u&&u(n);m.length;)m.shift()();return r.push.apply(r,l||[]),d()}function d(){for(var e,n=0;n<r.length;n++){for(var d=r[n],o=!0,i=1;i<d.length;i++){var c=d[i];0!==a[c]&&(o=!1)}o&&(r.splice(n--,1),e=t(t.s=d[0]))}return e}var o={},a={1:0},r=[];function t(n){if(o[n])return o[n].exports;var d=o[n]={i:n,l:!1,exports:{}};return e[n].call(d.exports,d,d.exports,t),d.l=!0,d.exports}t.e=function(e){var n=[],d=a[e];if(0!==d)if(d)n.push(d[2]);else{var o=new Promise((function(n,o){d=a[e]=[n,o]}));n.push(d[2]=o);var r,i=document.createElement("script");i.charset="utf-8",i.timeout=120,t.nc&&i.setAttribute("nonce",t.nc),i.src=function(e){return t.p+""+({0:"sharedCore",3:"shared~loader.DMDrawer~bundle.Compose~bundle.RichTextCompose~bundle.DirectMessages~bundle.DMRichTextCompose~b",4:"shared~bundle.Settings~ondemand.SettingsInternals~bundle.SettingsTransparency~bundle.SettingsRevamp~ondemand.",5:"shared~bundle.ComposeMedia~bundle.Ocf~bundle.SettingsProfile~bundle.UserLists",6:"shared~bundle.Compose~bundle.RichTextCompose~ondemand.ComposeScheduling~bundle.PlainTextCompose",7:"shared~bundle.MultiAccount~bundle.Login~bundle.LoggedOutHome~ondemand.IntentPrompt",8:"shared~bundle.Settings~ondemand.SettingsInternals~bundle.SettingsTransparency~bundle.SettingsRevamp",9:"shared~bundle.DirectMessages~bundle.TweetMediaDetail~bundle.UserAvatar",10:"shared~bundle.Place~bundle.Search~bundle.QuoteTweetActivity",11:"shared~bundle.RichTextCompose~bundle.DMRichTextCompose~ondemand.RichText",12:"shared~loader.DMDrawer~bundle.DirectMessages~bundle.DMRichTextCompose",13:"shared~bundle.Compose~bundle.PlainTextCompose",14:"shared~bundle.Display~bundle.Settings",15:"shared~bundle.Explore~loader.ExploreSidebar",16:"shared~bundle.LiveEvent~bundle.UserMoments",17:"shared~bundle.TopicPeek~ondemand.EmojiPicker",18:"shared~loader.DashMenu~bundle.Account",19:"shared~loader.Typeahead~bundle.UserLists",20:"shared~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlayerEventsUI",21:"shared~ondemand.EmojiPickerData~ondemand.EmojiPicker",22:"shared~ondemand.GraphQLModule~ondemand.UserProfileGraphQL",23:"shared~ondemand.InlinePlayer~loader.AudioOnlyVideoPlayer",24:"shared~ondemand.SettingsInternals~ondemand.SettingsRevamp",25:"bundle.AboutThisAd",26:"bundle.Account",27:"bundle.AdvancedSearch",28:"bundle.Birdwatch",29:"bundle.Bookmarks",30:"bundle.Collection",31:"bundle.Compose",32:"bundle.ComposeMedia",33:"bundle.ConnectTab",34:"bundle.Conversation",35:"bundle.ConversationParticipants",36:"bundle.DMRichTextCompose",37:"bundle.DirectMessages",38:"bundle.Display",39:"bundle.Download",40:"bundle.Explore",41:"bundle.ExploreTopics",42:"bundle.FleetsNotification",43:"bundle.FollowerRequests",44:"bundle.GenericTimeline",45:"bundle.GifSearch",46:"bundle.HomeTimeline",47:"bundle.KeyboardShortcuts",48:"bundle.LiveEvent",49:"bundle.LoggedOutHome",50:"bundle.Login",51:"bundle.Logout",52:"bundle.Moment",53:"bundle.MomentMaker",54:"bundle.MultiAccount",55:"bundle.NetworkInstrument",56:"bundle.NewsLanding",57:"bundle.NotMyAccount",58:"bundle.NotificationDetail",59:"bundle.Notifications",60:"bundle.Ocf",61:"bundle.Place",62:"bundle.PlainTextCompose",63:"bundle.ProfileRedirect",64:"bundle.QuoteTweetActivity",65:"bundle.Report",66:"bundle.RichTextCompose",67:"bundle.Search",68:"bundle.Settings",69:"bundle.SettingsInternals",70:"bundle.SettingsProfile",71:"bundle.SettingsRevamp",72:"bundle.SettingsTransparency",73:"bundle.SmsLogin",74:"bundle.TopicPeek",75:"bundle.Topics",76:"bundle.Trends",77:"bundle.TweetActivity",78:"bundle.TweetMediaDetail",79:"bundle.TweetMediaTags",80:"bundle.Twitterversary",81:"bundle.UserAvatar",82:"bundle.UserFollowLists",83:"bundle.UserLists",84:"bundle.UserMoments",85:"bundle.UserProfile",86:"bundle.UserRedirect",136:"loader.AbsolutePower",137:"loader.AppModules",138:"loader.AudioOnlyVideoPlayer",139:"loader.DMDrawer",140:"loader.DashMenu",141:"loader.ExploreSidebar",142:"loader.FeedbackSheet",143:"loader.FeedbackTombstone",144:"loader.HWCard",145:"loader.NewTweetsPill",146:"loader.PeriscopeOverlay",147:"loader.ProfileClusterFollow",148:"loader.PushNotificationsPrompt",149:"loader.SideNav",150:"loader.SignupModule",151:"loader.TimelineRenderer",152:"loader.TweetCurationActionMenu",153:"loader.Typeahead",154:"loader.WideLayout",155:"loader.directMessagesData",156:"loader.graphQLDarkReads",157:"loader.personalizationData",158:"loaders.video.PlayerBase",159:"loaders.video.PlayerHls13",160:"loaders.video.PlayerUi",161:"loaders.video.VideoPlayerDefaultUI",162:"loaders.video.VideoPlayerEventsUI",164:"ondemand.Balloons",165:"ondemand.BranchSdk",166:"ondemand.CarouselScroller",167:"ondemand.ComposeScheduling",168:"ondemand.Dropdown",169:"ondemand.EditBirthdate",170:"ondemand.EditPinned",171:"ondemand.EmojiPicker",172:"ondemand.FleetMediaDetail",173:"ondemand.GraphQLModule",174:"ondemand.HoverCard",175:"ondemand.InlinePlayer",176:"ondemand.IntentPrompt",177:"ondemand.LottieWeb",178:"ondemand.MicrosoftInterface",179:"ondemand.ProfileSidebar",180:"ondemand.RichText",181:"ondemand.SettingsInternals",182:"ondemand.SettingsRevamp",183:"ondemand.UserProfileGraphQL",184:"ondemand.countries-ar",185:"ondemand.countries-bg",186:"ondemand.countries-bn",187:"ondemand.countries-ca",188:"ondemand.countries-cs",189:"ondemand.countries-da",190:"ondemand.countries-de",191:"ondemand.countries-el",192:"ondemand.countries-en",193:"ondemand.countries-en-GB",194:"ondemand.countries-es",195:"ondemand.countries-eu",196:"ondemand.countries-fa",197:"ondemand.countries-fi",198:"ondemand.countries-fil",199:"ondemand.countries-fr",200:"ondemand.countries-ga",201:"ondemand.countries-gl",202:"ondemand.countries-gu",203:"ondemand.countries-he",204:"ondemand.countries-hi",205:"ondemand.countries-hr",206:"ondemand.countries-hu",207:"ondemand.countries-id",208:"ondemand.countries-it",209:"ondemand.countries-ja",210:"ondemand.countries-kn",211:"ondemand.countries-ko",212:"ondemand.countries-mr",213:"ondemand.countries-ms",214:"ondemand.countries-nb",215:"ondemand.countries-nl",216:"ondemand.countries-pl",217:"ondemand.countries-pt",218:"ondemand.countries-ro",219:"ondemand.countries-ru",220:"ondemand.countries-sk",221:"ondemand.countries-sr",222:"ondemand.countries-sv",223:"ondemand.countries-ta",224:"ondemand.countries-th",225:"ondemand.countries-tr",226:"ondemand.countries-uk",227:"ondemand.countries-ur",228:"ondemand.countries-zh",229:"ondemand.countries-zh-Hant",230:"ondemand.emoji.ar",231:"ondemand.emoji.bg",232:"ondemand.emoji.bn",233:"ondemand.emoji.ca",234:"ondemand.emoji.cs",235:"ondemand.emoji.da",236:"ondemand.emoji.de",237:"ondemand.emoji.el",238:"ondemand.emoji.en",239:"ondemand.emoji.en-GB",240:"ondemand.emoji.en-ss",241:"ondemand.emoji.en-xx",242:"ondemand.emoji.es",243:"ondemand.emoji.eu",244:"ondemand.emoji.fa",245:"ondemand.emoji.fi",246:"ondemand.emoji.fil",247:"ondemand.emoji.fr",248:"ondemand.emoji.ga",249:"ondemand.emoji.gl",250:"ondemand.emoji.gu",251:"ondemand.emoji.he",252:"ondemand.emoji.hi",253:"ondemand.emoji.hr",254:"ondemand.emoji.hu",255:"ondemand.emoji.id",256:"ondemand.emoji.it",257:"ondemand.emoji.ja",258:"ondemand.emoji.kn",259:"ondemand.emoji.ko",260:"ondemand.emoji.mr",261:"ondemand.emoji.ms",262:"ondemand.emoji.nb",263:"ondemand.emoji.nl",264:"ondemand.emoji.pl",265:"ondemand.emoji.pt",266:"ondemand.emoji.ro",267:"ondemand.emoji.ru",268:"ondemand.emoji.sk",269:"ondemand.emoji.sr",270:"ondemand.emoji.sv",271:"ondemand.emoji.ta",272:"ondemand.emoji.th",273:"ondemand.emoji.tr",274:"ondemand.emoji.uk",275:"ondemand.emoji.ur",276:"ondemand.emoji.vi",277:"ondemand.emoji.zh",278:"ondemand.emoji.zh-Hant",279:"ondemand.framerateTracking",280:"ondemand.video.PlayerHls12"}[e]||e)+"."+{0:"aaf2cc0",3:"1883078",4:"25b9fc5",5:"b8303ee",6:"426111f",7:"82172bc",8:"6249478",9:"f31a606",10:"8876ae2",11:"ce90fb3",12:"a81e9ca",13:"7d72f42",14:"ec6012c",15:"58b7bd0",16:"35fcef0",17:"f572e3a",18:"60c0dc2",19:"94b6f51",20:"4b8eceb",21:"b92aa63",22:"0921cd7",23:"f7fd0e7",24:"aec5b58",25:"57c7f69",26:"86a9af5",27:"d755027",28:"51c879c",29:"4b72654",30:"e8256b8",31:"ad35f98",32:"60fc17b",33:"1efddef",34:"9233133",35:"59004b3",36:"83f03c5",37:"873a640",38:"8212806",39:"a0db128",40:"d23b899",41:"d723a2d",42:"6f49b32",43:"3394f27",44:"0b9dec1",45:"3ed96e4",46:"b025ba3",47:"3aa5ca2",48:"014237b",49:"5fa8b64",50:"c3e4e47",51:"858062c",52:"044fdb5",53:"a9d8c87",54:"315d8a8",55:"116fe4e",56:"ca722be",57:"a0f0e9e",58:"adf736f",59:"989c4ed",60:"a9830ea",61:"43f21a8",62:"b4fff8b",63:"8f05bfb",64:"5c9853d",65:"960ae56",66:"02ddef6",67:"c40989e",68:"61773d5",69:"fd505a6",70:"ff5ea36",71:"564136f",72:"c8432dd",73:"5ba8444",74:"fc07d19",75:"0a690af",76:"c0699e7",77:"9c09a81",78:"8acfb7e",79:"13ea75a",80:"d2729c5",81:"9bb4b32",82:"1358b55",83:"2081892",84:"6d99401",85:"c5cf6e6",86:"a23d260",136:"8cb5836",137:"7188676",138:"9fe7939",139:"54f5760",140:"c4f7130",141:"9040bb0",142:"0ee3393",143:"5303d41",144:"4e44c44",145:"ae3ea12",146:"e322719",147:"0c33615",148:"1b05027",149:"2083579",150:"d25e33c",151:"4caf415",152:"0117e2a",153:"05ab034",154:"67a1a35",155:"81f7468",156:"7af479d",157:"07c1905",158:"a4932ff",159:"41ed497",160:"e42c0c1",161:"8aa144e",162:"35e5503",164:"6af0574",165:"b063cb1",166:"bd5c278",167:"81d33dd",168:"bdd6d3c",169:"8e66380",170:"fc39218",171:"155bebe",172:"4441d0b",173:"081003b",174:"1f6764f",175:"947f26f",176:"dc8ebdd",177:"6d4cf76",178:"fff1b23",179:"455926a",180:"904b2e0",181:"e96c47d",182:"2348354",183:"0192afa",184:"9a679ed",185:"9016ddc",186:"b15c039",187:"a77819f",188:"bbe26a3",189:"cdab884",190:"6d1fdde",191:"f66694e",192:"71bebc1",193:"2cac9f0",194:"afd6511",195:"17b8c7c",196:"ab95f6d",197:"a919eff",198:"41ee3da",199:"8dd914a",200:"6678f0b",201:"cd6a946",202:"348bbfb",203:"ff343b0",204:"e5c4450",205:"69d0ea2",206:"0ed4842",207:"b6c88a2",208:"073326e",209:"c63a706",210:"883af30",211:"ac373fa",212:"0ae6309",213:"6cea0fa",214:"8969fda",215:"b40abde",216:"bfc70f3",217:"1cc1bbf",218:"9c27be1",219:"fbe11a0",220:"3f821f3",221:"645da2c",222:"be042cd",223:"1f777c1",224:"bb3984c",225:"793b699",226:"4c925e9",227:"2c822c0",228:"dc64cfb",229:"9731708",230:"73e6376",231:"015edf5",232:"08a956f",233:"73cfa4d",234:"0c857f2",235:"6a62c72",236:"bf96ad3",237:"5bf8457",238:"e251e9f",239:"c7204c1",240:"0d15c81",241:"c541af2",242:"68ac0ea",243:"7660c6f",244:"1dae1e2",245:"2b81534",246:"00f9135",247:"943dd68",248:"fe72631",249:"8080859",250:"624feb5",251:"47b52b8",252:"5e90c21",253:"a3e9d36",254:"fc70c99",255:"c49e2a7",256:"b8ac821",257:"ccc609d",258:"cd11a9f",259:"0eab979",260:"3ada6f3",261:"14297a8",262:"96191a3",263:"cd0dc42",264:"9bc4bef",265:"360e2b9",266:"d894fd2",267:"d5b6f92",268:"fccb8b6",269:"6a720a7",270:"e8cf063",271:"f299fdd",272:"19276f7",273:"3ea7f24",274:"0d07829",275:"f2cbd9c",276:"a8739c5",277:"6d96dfb",278:"28640db",279:"38076b1",280:"a57306e"}[e]+"5.js"}(e);var c=new Error;r=function(n){i.onerror=i.onload=null,clearTimeout(l);var d=a[e];if(0!==d){if(d){var o=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+o+": "+r+")",c.name="ChunkLoadError",c.type=o,c.request=r,d[1](c)}a[e]=void 0}};var l=setTimeout((function(){r({type:"timeout",target:i})}),12e4);i.onerror=i.onload=r,document.head.appendChild(i)}return Promise.all(n)},t.m=e,t.c=o,t.d=function(e,n,d){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:d})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var d=Object.create(null);if(t.r(d),Object.defineProperty(d,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var o in e)t.d(d,o,function(n){return e[n]}.bind(null,o));return d},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="https://abs.twimg.com/responsive-web/client-web-legacy/",t.oe=function(e){throw e};var i=window.webpackJsonp=window.webpackJsonp||[],c=i.push.bind(i);i.push=n,i=i.slice();for(var l=0;l<i.length;l++)n(i[l]);var u=c;d()}([]),window.__SCRIPTS_LOADED__.runtime=!0;
-//# sourceMappingURL=https://ton.twitter.com/responsive-web-internal/sourcemaps/client-web-legacy/runtime.7b191c35.js.map
-</script>
-<script type="text/javascript" charset="utf-8" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" crossorigin="anonymous" src="https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.90d86535.js"></script>
-<script type="text/javascript" charset="utf-8" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" crossorigin="anonymous" src="https://abs.twimg.com/responsive-web/client-web-legacy/vendors~main.45e01195.js"></script>
-<script type="text/javascript" charset="utf-8" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" crossorigin="anonymous" src="https://abs.twimg.com/responsive-web/client-web-legacy/i18n/en.6c3b6795.js"></script>
-<script type="text/javascript" charset="utf-8" nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy" crossorigin="anonymous" src="https://abs.twimg.com/responsive-web/client-web-legacy/main.a0abd565.js"></script>
-<script nonce="ZmZmNTc2MjAtZjA5NC00YTA3LTk5ODUtNGM3NTIyM2E2YjAy">
-  (function () {
-    if (!window.__SCRIPTS_LOADED__['main']) {
-      document.getElementById('ScriptLoadFailure').style.display = 'block';
-      var criticalScripts = 'polyfills,vendors~main,i18n,main'.split(',');
-      var i;
-      for (i = 0; i < criticalScripts.length; i++) {
-        var criticalScript = criticalScripts[i];
-        if (!window.__SCRIPTS_LOADED__[criticalScript]) {
-          document.getElementsByName('failedScript')[0].value = criticalScript
-          break;
-        }
-      }
-    }
-  })();
-</script>
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js?ver=1.4.8'></script>
+<script type='text/javascript' src='https://www.toyota-ct.ac.jp/wp/wp-includes/js/wp-embed.min.js?ver=49fd592da9d91a317c19b5714eec4316'></script>
+</body>
+</html>
